@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/fonts.css';
+body {
+    font-family: "TeleSans-Regular";
+}
+
+.border--box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px 20px 40px;
+    gap: 20px;
+    isolation: isolate;
+    border: 2px solid var(--neutral1);
+    border-radius: 8px;
+}
+
+.border--box--title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+}

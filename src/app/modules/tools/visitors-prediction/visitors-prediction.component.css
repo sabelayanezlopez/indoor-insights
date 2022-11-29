@@ -1,0 +1,18 @@
+.visitors--prediction--row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.visitors--prediction--gender {
+    
+    flex: 1;
+}
+
+.visitors--prediction--per--day {
+    margin-right: 20px;
+    flex: 2;
+}
+
+.visitors--prediction--total {
+    width: auto;
+}

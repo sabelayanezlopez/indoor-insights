@@ -1,0 +1,13 @@
+@import "../../../assets/colors.css";
+.tools--tab {
+    display: flex;
+}
+
+.tools--content {
+    width: 100%;
+    margin-left:20px;
+}
+
+.width-250 {
+    width: 250px;
+}
