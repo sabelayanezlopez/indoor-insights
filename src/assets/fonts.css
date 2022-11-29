@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: "TeleSans-Regular";
+    src: url("./fonts/TelefonicaSans/Telefonica_Sans_Regular.eot");
+    src: url("./fonts/TelefonicaSans/Telefonica_Sans_Regular.eot?#iefix") format('embedded-opentype'),
+         url("./fonts/TelefonicaSans/Telefonica_Sans_Regular.woff2") format('woff2'),
+	url("./fonts/TelefonicaSans/Telefonica_Sans_DemiBold.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TeleSans-Light';
+    src: url("./fonts/TelefonicaSans/Telefonica_Sans_Light.eot");
+    src: url("./fonts/TelefonicaSans/Telefonica_Sans_Light.eot?#iefix') format('embedded-opentype"),
+         url("./fonts/TelefonicaSans/Telefonica_Sans_Light.woff2") format('woff2'),
+         url("./fonts/TelefonicaSans/Telefonica_Sans_Light.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "TeleSans-DemiBold";
+    src: url("./fonts/TelefonicaSans/Telefonica_Sans_DemiBold.eot");
+    src: url("./fonts/TelefonicaSans/Telefonica_Sans_DemiBold.eot?#iefix") format('embedded-opentype'),
+        url("./fonts/TelefonicaSans/Telefonica_Sans_DemiBold.woff2") format('woff2'),
+        url("./fonts/TelefonicaSans/Telefonica_Sans_DemiBold.woff") format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
