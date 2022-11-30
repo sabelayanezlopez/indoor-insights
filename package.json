@@ -27,7 +27,8 @@
     "@lucia/element-lines": "file:dist/lucia-element-lines-0.2.0.tgz",
     "@lucia/select": "file:dist/lucia-select-0.2.0.tgz",
     "@lucia/submenu": "file:dist/lucia-submenu-0.2.0.tgz",
-    "d3-selection": "^3.0.0",
+    "d3": "^6.3.1",
+    "d3-transition": "^2.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

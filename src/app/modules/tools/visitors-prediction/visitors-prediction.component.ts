@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { D3Element } from '@lucia/core-d3element';
 import { donutGraph } from '@lucia/element-donut';
-import { lines } from '@lucia/element-lines';
 import { verticalBars } from '@lucia/element-bars';
 @Component({
   selector: 'app-visitors-prediction',
