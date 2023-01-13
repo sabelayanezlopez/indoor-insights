@@ -17,4 +17,8 @@ export class MainFilterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  prueba(ev) {
+    console.log(this.SELECT_OPTIONS.options[ev.detail.value])
+  }
+
 }

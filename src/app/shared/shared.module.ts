@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { TabTitleComponent } from './tab-title/tab-title.component';
 import { MainFilterComponent } from './main-filter/main-filter.component';
 
-import "@lucia/select"
+// import "@lucia/select"
 
 @NgModule({
   declarations: [

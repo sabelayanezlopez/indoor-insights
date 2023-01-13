@@ -4,7 +4,7 @@
     </div>
     <div class="tools--content">
         <app-tab-title title="Tools"></app-tab-title>
-        <lucia--submenu [menuOptions]="toolsMenuOptions"></lucia--submenu>
+        <lucia--submenu [menuOptions]="toolsMenuOptions" (callback)="navToSubpage($event)"></lucia--submenu>
         <router-outlet></router-outlet>
     </div>
 

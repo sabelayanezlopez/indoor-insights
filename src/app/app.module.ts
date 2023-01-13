@@ -4,11 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import '@lucia/submenu';
+import '@lucia/element-submenu';
 import '@lucia/select';
 
 import { ToolsModule } from './modules/tools/tools.module';
 import { SharedModule } from './shared/shared.module';
+import { VisitorsFunnelModule } from './modules/visitors-funnel/visitors-funnel.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -17,7 +18,8 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     ToolsModule,
-    SharedModule
+    SharedModule,
+    VisitorsFunnelModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

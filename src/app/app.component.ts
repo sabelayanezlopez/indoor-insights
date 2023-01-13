@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'indoor-insights';
   public MENU_OPTIONS = {
-    defaultSelectedOption : 2,
+    defaultSelectedOption : 3,
     options:[
     'Overview',
     'Visitors funnel',
@@ -19,6 +19,9 @@ export class AppComponent {
   constructor(private router:Router) { }
   public navToPage(ev:any) {
     switch(ev.detail) {
+      case 1:
+        this.router.navigate(['/visitors-funnel']);
+        break;
       case 3:
           this.router.navigate(['/tools']);
           break;

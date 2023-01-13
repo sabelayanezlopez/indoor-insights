@@ -4,6 +4,12 @@
     display: flex;
 }
 
+#__graph_container {
+    display: block;
+    height: 400px;
+    width: 400px;
+}
+
 .visitors--prediction--gender {
     flex: 1;
 }
@@ -11,11 +17,54 @@
 .visitors--prediction--per--day {
     margin-right: 20px;
     flex: 2;
+    height: 400px;
 }
 
+.visitors--prediction--per--day--graph {
+    height:100%;
+    display: block;
+    
+}
 .total--visitors--prediction {
     width: auto;
 }
+
+.visitors--prediction--per--day--label {
+    display: flex;
+}
+
+.label {
+    width: 9px;
+    height: 9px;
+    align-self: center;
+    margin-left: 12px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.bg-accent1 {
+    background: #66A3FF;
+}
+
+.color-green {
+    color: #87B009;
+}
+.bg-green {
+    background: #87B009;
+}
+
+.color-orange {
+    color: #FCB802;
+}
+.bg-orange {
+    background: #FCB802;
+}
+
+
+.color-accent1 {
+    color: #66A3FF;
+}
+
 
 .total--visitors--content {
     display: flex;
